@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@import "components/header";
+@import "base/listas";
+@import "base/variables";
+@import "base/forms";
+@import "components/contacto";
+@import "components/registro";
+@import "components/footer";

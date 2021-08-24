@@ -1,0 +1,18 @@
+@import "../base/listas";
+@import "../base/variables";
+
+footer nav .container-redes {
+    background-color:nth($color, 1);
+    padding: 40px 0 40px 0;
+    display: $display-f;
+    justify-content:$j-cont-c;
+    align-items: $a-items-c;
+}
+
+footer nav div div {
+        font-family: 'Source Code Pro', monospace;
+        color: nth($color, 2);
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 0 10px 0 10px;
+}

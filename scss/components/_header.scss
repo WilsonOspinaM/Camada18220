@@ -1,0 +1,59 @@
+@import "../base/listas";
+@import "../base/variables";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;1,700&display=swap');
+
+.container {
+    height: auto;
+    background-color: nth($color, 1);
+    padding: 10px 0 10px 0;
+    display: $display-f;
+    justify-content: $j-cont-c;
+    align-items: $a-items-c;   
+}
+
+header{
+    nav {
+        .item {
+            padding: 10px 0;
+            display: $display-f;
+            justify-content: $j-cont-sb;
+            align-content: center;
+            float:inline-start;
+        }
+        
+        .menu {
+            font-family: 'Source Code Pro', monospace;
+            font-size: 15px;
+            letter-spacing: 1px;
+            word-spacing: 10px;
+            margin: 0;
+        }
+
+        div {
+            img {
+                width: 126px; 
+            }
+        }
+
+        ul {
+            li {
+                a {
+                    text-decoration: none;
+                    color: nth($color, 2);
+                }
+            }
+        }
+
+        .espacio {
+            padding: 0px 60px 0px 60px;
+            margin: 0;
+        }
+    }
+}
+.sticky {
+    position: sticky !important;
+    top: 0;
+    z-index: 5;
+    background-color: nth($color, 1);
+}

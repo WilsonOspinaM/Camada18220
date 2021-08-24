@@ -1,0 +1,27 @@
+.img-contact {
+    width: auto;
+    border-radius: 0 0 20px 20px;
+    display: $display-f;
+    margin: auto;
+    background-color: nth($color, 3);
+    
+    }
+
+    
+.img {
+    background-color: nth($color, 3);
+}
+
+.btn-1 {
+    background-color: nth($color, 3);
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 22.5% 50px;
+}
+
+.btn-2 {
+    background-color: nth($color, 3);
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 22.5%;
+}

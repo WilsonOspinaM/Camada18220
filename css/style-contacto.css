@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;1,700&display=swap');
+
+/* Header */
+
+.container {
+    background-color: #581845;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+
+header nav .item {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    float:inline-start;
+}
+
+header nav .menu {
+        font-family: 'Source Code Pro', monospace;
+        font-size: 15px;
+        letter-spacing: 2px;
+        word-spacing: 20px;
+}
+
+header nav div img {
+    width: 126px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+header nav .espacio {
+    padding: 0px 120px 0px 120px;
+}
+
+.sticky {
+    position: sticky !important;
+    top: 0;
+    z-index: 5;
+    background-color: #581845;
+}
+/* Fin Header */
+
+
+/* Section Banner Principal */
+
+#Banner-1 {
+    font-family: 'Source Code Pro', monospace;
+    width: 100%;
+}
+
+section div div p strong {
+    color: #581845;
+    font-weight:bold;
+    font-size: 40px;
+    font-style: oblique;
+}
+
+section div div p{
+   padding: 0 150px 0 150px;
+}
+
+.section-container {
+    color: #900C3F ;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10rem;
+}
+
+.img-principal-banner {
+    padding: 0 20px 0;
+    transition: all 2s;
+}
+
+.section {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Fin Section Banner Principal */
+
+
+/* Section Menú */
+
+#menu-chef {
+    font-family: 'Source Code Pro', monospace;
+    width: 100%;
+}
+
+.container-img:hover {
+    transform: scale(1.1);
+    
+}
+
+section div div p strong {
+    color: #581845;
+    font-weight:bold;
+    font-size: 40px;
+    font-style: oblique;
+}
+
+section div div p{
+   padding: 0 150px 0 150px;
+}
+
+.section-container-menu {
+    color: #900C3F ;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 20px;
+}
+
+
+.section {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Fin Section Menú */
+
+/* Section Especiales */
+
+#especiales {
+    font-family: 'Source Code Pro', monospace;
+    width: 100%;
+}
+
+section div div p strong {
+    color: #581845;
+    font-weight:bold;
+    font-size: 40px;
+    font-style: oblique;
+}
+
+section div div p{
+   padding: 0 150px 0 150px;
+}
+
+.section-container-especiales{
+    color: #900C3F ;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.img-principal-banner {
+    padding: 0 20px 0;
+}
+
+.section {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Fin Section Especiales */
+
+/* Float comentarios */
+
+.comentarios {
+    float: right;
+    padding: 20px 40px 0 0;
+}
+
+/* Fin Float comentarios */
+
+/* Calidad - Comentarios */
+
+.section-border-calidad {
+    border-width: 3px;
+    border-style:solid;
+    border-color:lavender;
+    height: 420px;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+}
+
+section div div div .section-calidad {
+    align-content: center;
+}
+
+.container-usuarios {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usuarios:hover{
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 5px gainsboro;
+    height: 200px;
+}
+
+.usuarios {
+    border-radius: 50%;
+    width: 200px;
+    margin: auto;
+    padding: 0;
+    transition: 1s;
+    height: 200px;
+}
+
+.parrafo-usuarios {
+    width: 200px;
+    margin: auto;
+    padding: 0;
+}
+
+/* Fin Calidad - Comentarios */
+
+.item-fixed {
+    position: fixed;
+    /* Se puede ubicar a los 4 lados */
+    bottom: 130px;
+    right: 0;
+}
+
+
+/* Menú Pedidos */
+
+.container-pedidos {
+    width: 1000px;
+    margin: auto;
+}
+
+section .opcion-pedido {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+
+.img-pedido {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.producto {
+    width: 150px;
+    height: 114px;
+    
+}
+
+section div div #txt-menu {
+    width: 150px;
+    padding: 10px;
+}
+
+section div div #strong-pedido {
+    font-size: 20px;
+    font-style: normal;
+}
+
+/* Fin Menú Pedidos */
+
+/* Formulario Registro */
+
+.form-style {
+    background-color:gainsboro;
+    margin: auto;
+    width: 80%;
+    padding: 30px;
+    
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: green;
+    border-color: green;
+}
+
+.group1 {
+    display: flex;
+
+}
+
+/* Formulario Registro */
+
+
+/* Regitro Grilla */
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    
+    }
+    
+    .div1 {
+        width: 100%;
+        grid-area: 6 / 5 / 10 / 6;
+        background-color:black;
+    }
+    .div2 { grid-area: 1 / 6 / 6 / 7;
+        width: 100%;
+    }
+    .div3 {grid-area: 6 / 1 / 10 / 3;
+        width: 100%;    
+    }
+
+   .img3 {
+       width: 100%;
+   }
+
+    .div4 { grid-area: 1 / 3 / 6 / 5;
+        width: 100%;
+    }
+    .div5 { grid-area: 1 / 5 / 6 / 6;
+        width: 100%;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 30px;
+        font-weight: 700;
+        background-color:palegoldenrod;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .div6 { grid-area: 6 / 3 / 10 / 5;
+        width: 100%;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 30px;
+        font-weight: 700;
+        background-color:papayawhip;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .div7 {
+        width: 100%;
+        grid-area: 1 / 1 / 6 / 3;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 30px;
+        font-weight: 700;
+        background-color:beige;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .div8 { grid-area: 6 / 6 / 10 / 7;
+        width: 100%;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 30px;
+        font-weight: 700;
+        background-color:lavender;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+/* Fin Regitro Grilla */
+
+
+/* Términos y condiciones */
+
+.tyc {
+    background-color:gainsboro;
+    margin: auto;
+    padding: 30px 20rem 10px 20rem;
+    text-align: center;
+    align-content: center;
+}
+
+.form-style {
+    background-color:gainsboro;
+    margin: auto;
+    width: 100%;
+    padding: 40px 20rem;
+    
+}
+
+
+/* Footer */
+
+footer nav .container-redes {
+    background-color: #581845;
+    padding: 40px 0 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav div div {
+        font-family: 'Source Code Pro', monospace;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 2px;
+        padding: 0 10px 0 10px;
+}
+
+/* Fin Footer*/
